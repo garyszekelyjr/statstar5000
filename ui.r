@@ -7,8 +7,3 @@ ui <- fluidPage(
                 mainPanel()
         )
 )
-
-server <- function(input, output) {
-}
-
-shinyApp(ui = ui, server = server)
